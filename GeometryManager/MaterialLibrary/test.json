@@ -1,0 +1,91 @@
+{
+"Geometry_Library":
+{
+	"Layers_Library":
+	{
+		"Clay1" : 
+		{
+			"Thickness" : 11.0,
+			"Material" : "Clay1_mat"
+		},
+		"Clay2" : 
+		{
+			"Thickness" : 12.0,
+			"Material" : "Clay2_mat"
+		},
+		"Clay3" : 
+		{
+			"Thickness" : 13.0,
+			"Material" : "Clay3_mat"
+		},
+		"Clay4" : 
+		{
+			"Thickness" : 14.0,
+			"Material" : "Clay4_mat"
+		}
+	},
+	"Base_Library":
+	{
+		"Sandstone" :
+		{
+			"Material": "Sandstone_mat"
+		},
+		"Granite" :
+		{
+			"Material": "Granite_mat"
+		}
+	}
+},
+"Site_Layering":
+{
+	"Layers":
+	[
+		"Clay1",
+		"Clay2",
+		"Clay3",
+		"Clay4"
+	],
+	"Base_Layer": "Granite",
+	"Base_Type": "Compliant"
+},
+"Material_Library":
+{
+	"Clay1_mat":
+	{
+		"Material_Type": "J2CyclicBoundingSurface",
+		"Material_Properties":
+		{
+			"G": "1000.0",
+			"K": "2000.0"
+		}
+	},
+	"Clay2_mat":
+	{
+		"Material_Type": "J2CyclicBoundingSurface",
+		"Material_Properties":
+		{
+			"G": "1000.0",
+			"K": "2000.0"
+		}
+	},
+	"Clay3_mat":
+	{
+		"Material_Type": "J2CyclicBoundingSurface",
+		"Material_Properties":
+		{
+			"G": "1000.0",
+			"K": "2000.0"
+		}
+	},
+	"Clay4_mat":
+	{
+		"Material_Type": "J2CyclicBoundingSurface",
+		"Material_Properties":
+		{
+			"G": "1000.0",
+			"K": "2000.0"
+		}
+	}
+}
+
+}
